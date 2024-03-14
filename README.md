@@ -30,9 +30,8 @@ ou também pode usar o newman-reporter-htmlextra. Com opções mais estilizadas 
 npm install -g newman-reporter-htmlextra
 ```
 ## Como rodar os testes
-### Pelo Postman ou pela IDE
-- Import a collection e o environment
-<img src="file:///C:/Users/lelem/OneDrive/Imagens/Screenshots/import-colletion.png" width="500" height="250">
+- No Postman importa a collection e o environment
+<img src="https://github.com/leonardomartinezmarco/automacao_api_newman-pipeline/assets/55605892/02bcd848-38b9-46f9-8467-6cb0a3ab3dcc)" width="500" height="250">
 
 - Execute os testes de forma manual ou automatizado
 
@@ -42,7 +41,7 @@ npm install -g newman-reporter-htmlextra
 ```
 newman run servRest.postman_collection.json -e servRest_test.postman_environment.json -r cli
 ```
-<img src="file:///C:/Users/lelem/OneDrive/Imagens/Screenshots/testes-console.png" width="500" height="500">
+<img src="https://github.com/leonardomartinezmarco/automacao_api_newman-pipeline/assets/55605892/65beb3f8-f575-4602-bbbd-e1eb99a9a6ca)" width="500" height="250">
 
 
 ### Report
@@ -51,4 +50,4 @@ Ao rodar os testes com htmlextra, será gerado arquivo em HTML com o resultado d
 ```
 newman run servRest.postman_collection.json -e servRest_test.postman_environment.json -r htmlextra
 ```
-<img src="file:///C:/Users/lelem/OneDrive/Imagens/Screenshots/newman_html.png" width="500" height="500">
+<img src="https://github.com/leonardomartinezmarco/automacao_api_newman-pipeline/assets/55605892/1639e4ad-6824-45e3-9140-4dbf6d4c41fa)" width="500" height="250">
